@@ -1,0 +1,117 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+        height: auto; /* Auto height to prevent overlap */
+        margin-bottom: 6rem;
+        display: flex;
+        flex-wrap: wrap; /* Ensure elements wrap on smaller screens */
+        justify-content: center;
+      }
+    .about-container {
+      flex-wrap: wrap;
+    }
+    #contact,
+    #project {
+      height: fit-content;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    #desktop-nav {
+      display: none;
+    }
+    #mobile-nav {
+      display: flex;
+    }
+    #experience,
+    .experience-details-container {
+      margin-top: 2rem;
+    }
+    #profile,
+    .section-container {
+      display: block;
+      height: auto; /* Ensure auto height for responsiveness */
+      margin-bottom: 2rem; /* Add margin to avoid overlapping */
+    }
+    .arrow {
+      display: none;
+    }
+    section,
+    .section-container {
+      height: fit-content;
+    }
+    section {
+      margin: 0 5%;
+    }
+    .section__pic-container {
+      width: 275px;
+      height: 275px;
+      margin: 0 auto 2rem;
+    }
+    .about-container {
+      margin-top: 0;
+      flex-wrap: wrap; /* Ensure the about container wraps correctly */
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    #contact,
+    footer {
+      height: fit-content; /* Set footer height to fit content */
+    }
+    #profile {
+      height: auto; /* Adjust profile height to fit content */
+      margin-bottom: 0;
+    }
+    article {
+      font-size: 1rem;
+    }
+    footer nav {
+      height: fit-content; /* Ensure nav links fit in the footer */
+      margin-bottom: 2rem;
+      display: flex;
+      flex-direction: column; /* Stack links vertically */
+      align-items: center;
+    }
+    .about-container,
+    .contact-info-upper-container,
+    .btn-container {
+      flex-wrap: wrap;
+    }
+    .contact-info-container {
+      margin: 0;
+    }
+    .contact-info-container p,
+    .nav-links li a {
+      font-size: 1rem;
+    }
+    .experience-sub-title {
+      font-size: 1.25rem;
+    }
+    .logo {
+      font-size: 1.5rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+    .section__pic-container {
+      width: auto;
+      height: 46vw;
+      justify-content: center;
+    }
+    .section__text__p2 {
+      font-size: 1.25rem;
+    }
+    .title {
+      font-size: 2rem;
+    }
+    .text-container {
+      text-align: justify;
+    }
+    .experience-details-container {
+      flex-direction: column; /* Ensure vertical stacking in experience section */
+      margin-top: 1rem;
+    }
+  }
+  
